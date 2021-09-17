@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="SampleSuite2" duration-ms="59106" started-at="2021-09-17T12:17:14 IST" finished-at="2021-09-17T12:18:13 IST">
+    <groups>
+    </groups>
+    <test name="SampleTest" duration-ms="27961" started-at="2021-09-17T12:17:14 IST" finished-at="2021-09-17T12:17:42 IST">
+      <class name="uitest.RecorderScript">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:uitest.RecorderScript@5cdf39b2]" name="setup" is-config="true" duration-ms="7264" started-at="2021-09-17T12:17:14 IST" finished-at="2021-09-17T12:17:22 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:uitest.RecorderScript@5cdf39b2]" name="testParameterWithXML" duration-ms="20532" started-at="2021-09-17T12:17:22 IST" finished-at="2021-09-17T12:17:42 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- uitest.RecorderScript -->
+    </test> <!-- SampleTest -->
+    <test name="Sample2Test" duration-ms="31085" started-at="2021-09-17T12:17:42 IST" finished-at="2021-09-17T12:18:13 IST">
+      <class name="uitest.RecorderScript">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:uitest.RecorderScript@1f6d27cc]" name="setup" is-config="true" duration-ms="10478" started-at="2021-09-17T12:17:42 IST" finished-at="2021-09-17T12:17:53 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="testParameterWithXML()[pri:0, instance:uitest.RecorderScript@1f6d27cc]" name="testParameterWithXML" duration-ms="20607" started-at="2021-09-17T12:17:53 IST" finished-at="2021-09-17T12:18:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testParameterWithXML -->
+      </class> <!-- uitest.RecorderScript -->
+    </test> <!-- Sample2Test -->
+  </suite> <!-- SampleSuite2 -->
+</testng-results>
